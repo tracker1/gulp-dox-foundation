@@ -1,0 +1,29 @@
+{
+  "name": "gulp-dox-foundation",
+  "version": "0.0.0",
+  "description": "Gulp plugin to transform js to dox-foundation html.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tracker1/gulp-dox-foundation.git"
+  },
+  "keywords": [
+    "gulp-plugin",
+    "dox",
+    "dox-foundation"
+  ],
+  "author": "Michael J. Ryan <tracker1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tracker1/gulp-dox-foundation/issues"
+  },
+  "homepage": "https://github.com/tracker1/gulp-dox-foundation",
+  "dependencies": {
+    "dox-foundation": "^0.5.6",
+    "event-stream": "^3.1.5",
+    "dox": "^0.4.4"
+  }
+}
